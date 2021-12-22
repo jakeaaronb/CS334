@@ -33,3 +33,4 @@ https://gist.github.com/SolClover/4dc6be814663bbcd6274069727754b29 - Source code
 https://gist.github.com/SolClover/183b3bc2d51881138177a2ed80c00fdc - Source code
 https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html - For visual pd
 https://gist.github.com/SolClover/52a69b8ceeb77240ea51d6a61a1fffed - Source code for defPrintProbs
+https://www.edureka.co/blog/bayesian-networks/ for node based information and source code
