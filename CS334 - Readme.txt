@@ -18,7 +18,7 @@ Successfully calculates probability of BBN.
 
 
 Sources used:
-Kaggle.com //Excel Data
+https://www.kaggle.com/jsphyg/weather-dataset-rattle-package //Excel Dataset to use for evidence in bayesian network.
 towardsscience.co // Portions of Source code
 geeksforgeeks.com // Explanation of data
 tutorialspoint.com // Explanation of data
