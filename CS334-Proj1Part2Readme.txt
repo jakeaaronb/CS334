@@ -47,7 +47,7 @@ Eliminating: sex: 100%|██████████| 3/3 [00:00<00:00, 750.59i
 
 
 Sources:
-edureka.co
-towardsdatascience.com
-analyticsindiamag.com
-vtpulse.com
+https://www.kaggle.com/ronitf/heart-disease-uci - dataset
+https://www.edureka.co/blog/bayesian-networks/ for proper knowledge and implementation
+https://pgmpy.org/_modules/pgmpy/estimators/MLE.html // Pgmpy import information and how to utilize them
+https://pgmpy.org/_modules/pgmpy/models/BayesianNetwork.html // for bayesian network import and utilizing its features.
