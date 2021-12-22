@@ -75,7 +75,7 @@ def probs(data, child, parent1=None, parent2=None):
     return prob
 
 #Following this, each probability is calculated:
-
+#https://www.edureka.co/blog/bayesian-networks/
 #For Child nodes that are for instance "Hum3pmCat" with some parent node let's say "Hum9amCat", we need to be able to input probabilities for each combination of child and parent nodes. The DefProbs function is created so we don't have to calculate each frequency one-by-one.
 Humid9am = BbnNode(Variable(0, 'Humid9am', ['<=60', '>60']), probs(df, child='Humidity9amCat'))
 Humid3pm = BbnNode(Variable(1, 'Humid3pm', ['<=60', '>60']), probs(df, child='Humidity3pmCat', parent1='Humidity9amCat'))
@@ -84,6 +84,7 @@ RainTomorrow = BbnNode(Variable(3, 'RainTomorrow', ['No', 'Yes']),
                        probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
 
 #adding in each node to they bayesian network
+#https://www.edureka.co/blog/bayesian-networks/
 bbn = Bbn() \
     .add_node(Humid9am) \
     .add_node(Humid3pm) \
