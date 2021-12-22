@@ -1,9 +1,7 @@
 This project is focused on Bayesian Networks that use weather data in order to determine relationships between weather and the probability of a weather event occuring.
-
-
 First we create nodes with probabilities.
 the Normalized frequencies would be common practice, but this can also be done using actual frequencies. That is why the 
-BbnNode(Var, 0, 'dataPoint',['<= n', '>n']}) was used in this case. (This data will be discretied for submission.)
+BbnNode(Var, 0, 'dataPoint',['<= n', '>n']}) was used in this case.
 
 For Child nodes that are for instance "Hum3pmCat" with some parent node let's say "Hum9amCat", we need to be able to input probabilities for each combination of child and parent nodes. The DefProbs function is created so we don't have to calculate each frequency one-by-one.
 
@@ -16,8 +14,11 @@ The defPrintProbs is the function designed to print any and all marginal probabi
 Code successfully runs and prints out a tree. 
 Successfully calculates probability of BBN.
 
-
+-Links for source code also presented in .py file. All information used was used from the owner and modified to an extent to develop project. 
 Sources used:
+-Kaggle is a community of researchers that share their informnation for other scientists and engineers to access.
+-Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment. From weather data to episodes of hit shows. Kaggle offers tons of data to be used.
+Using a dataset from kaggle allowed me to visually understand the correlation of information. After researching bayesian networks, it was easier to see a spreadsheet of data and plug in information into a python program to be able to create a BBN. Since ptyhon can read in excel files, I downloaded the excel data sheet and used the variables in the sheet to formulate the BBN. 
 https://www.kaggle.com/jsphyg/weather-dataset-rattle-package //Excel Dataset to use for evidence in bayesian network.
 https://towarddatascience.com/bbn-bayesian-belief-networks-how-to-build-them-effectively-in-python-6b793435bba// Portions of Source code
 https://www.geeksforgeeks.org/basic-understanding-of-bayesian-belief-networks/// Explanation of data to understand concepts and implementation
