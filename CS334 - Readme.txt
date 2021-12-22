@@ -19,9 +19,16 @@ Successfully calculates probability of BBN.
 
 Sources used:
 https://www.kaggle.com/jsphyg/weather-dataset-rattle-package //Excel Dataset to use for evidence in bayesian network.
-towardsscience.co // Portions of Source code
-geeksforgeeks.com // Explanation of data
-tutorialspoint.com // Explanation of data
-Sciencedirect.com // explanation of dat and source code
+https://towarddatascience.com/bbn-bayesian-belief-networks-how-to-build-them-effectively-in-python-6b793435bba// Portions of Source code
+https://www.geeksforgeeks.org/basic-understanding-of-bayesian-belief-networks/// Explanation of data to understand concepts and implementation
+https://www.tutorialspoint.com/data_mining/dm_bayesian_classification.htm // Explanation of data to further understand how bayesian networks work and how to implement.
 Informational-Statistical Data Mining - Warehouse Integration with examples of Oracle basics (Bon K. Sy)// Knowledge and explanation of Bayesian Networks
 Bayesian Networks (Michal Horný) // Some background information of bayesian networks
+https://py-bbn.readthedocs.io/index.html // Python packages
+https://pandas.pydata.org/docs/ // Python packages
+Networkx import - Aric A. Hagberg, Daniel A. Schult and Pieter J. Swart, “Exploring network structure, dynamics, and function using NetworkX”, in Proceedings of the 7th Python in Science Conference (SciPy2008), Gäel Varoquaux, Travis Vaught, and Jarrod Millman (Eds), (Pasadena, CA USA), pp. 11–15, Aug 2008
+Matlib plot - https://matplotlib.org/stable/users/index.html
+https://gist.github.com/SolClover/4dc6be814663bbcd6274069727754b29 - Source code
+https://gist.github.com/SolClover/183b3bc2d51881138177a2ed80c00fdc - Source code
+https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html - For visual pd
+https://gist.github.com/SolClover/52a69b8ceeb77240ea51d6a61a1fffed - Source code for defPrintProbs
